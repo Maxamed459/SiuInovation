@@ -48,6 +48,11 @@ img {
     background-color: #FB923C;
 }
 
+.btn:hover {
+    background-color: #fff;
+    color: #FB923C;
+}
+
 /* hero section */
 
 #hero {
