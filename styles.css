@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #10657A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 0 10px #000;
+    /* border-bottom: 3px solid #FB923C; */
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo {
+    max-width: 120px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    width: 110px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    background-color: #FB923C;
+}
+
+/* hero section */
+
+#hero {
+    /* background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531); */
+    /* background-image: url("images/bgpattern-01.jpg"), linear-gradient(180deg, rgba(16,101,122,1), rgba(251,146,60,1),40%, rgba(16,101,122,1)); */
+    background-image: url("images/bgpattern-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+}
+.text{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+}
+.text h1 {
+    line-height: 60px;
+    font-size: 45px;
+    /* text-align: center; */
+    font-weight: 800;
+    color: #fff;
+}
+.text .h1-s {
+    color: #FB923C;
+}
+.text p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+}
+.btn-h1 {
+    margin-top: 20px;
+    width: 110px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    background-color: #FB923C;
+    color: #fff;
+}
+.btn-h2 {
+    margin-top: 20px;
+    margin: 0 10px;
+    width: 110px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    background-color: #fff;
+    color: #FB923C;
+}
+
+/* about section */
+#about {
+    max-width: 100%;
+    max-height: 80vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+
+}
+
+.about-images {
+    max-width: 50%;
+}
+.about-images img {
+    max-width: 800px;
+}
+.about-text {
+    max-width: 50%;
+    text-align: left;
+    margin: auto;
+    padding-right: 100px;
+}
+.about-text h4 {
+    color: #10657A;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.about-text p {
+    color: #484848;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* programs section */
+
+#programs {
+    max-height: 100vh;
+    max-width: 100%;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 5%;
+}
+
+.program-img {
+    max-width: 30%;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    padding: 10px;
+}
+.program-img:hover {
+    box-shadow: 0 0 10px rgba(251, 146, 60, .7);
+    cursor: pointer;
+}
+.program-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+.ph2 {
+    color: #FB923C;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+}
+.ph2 span {
+    color: #10657A;
+}
+.deth4 {
+    color: #10657A;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.detp {
+    color: #484848;
+    font-size: 15px;
+}
+.btn-det {
+    margin-top: 10px;
+    width: 110px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    background-color: #FB923C;
+    color: #fff;
+}
+.btn-det:hover {
+    background-color: #10657A;
+    color: #fff;
+}
+
+/* services section */
+
+#services {
+    max-height: 100vh;
+    max-width: 100%;
+    background-color: #10657A;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 40px; */
+    margin-top: 5%;
+}
+
+.service-card {
+    max-width: 30%;
+    min-height: 300px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    padding: 20px;
+}
+.program-img:hover {
+    box-shadow: 0 0 10px rgba(251, 146, 60, .7);
+    cursor: pointer;
+}
+.service-card .icon {
+    max-width: 50px;
+    border-radius: 5px;
+}
+.sh1 {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 5%;
+    padding: 10px 0;
+}
+.sp {
+    color: #484848;
+    font-size: 15px;
+    line-height: 20px;
+}
