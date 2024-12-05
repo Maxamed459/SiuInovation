@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     background-color: #10657A;
     display: flex;
@@ -62,7 +66,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 .text{
     max-width: 60%;
@@ -251,4 +255,130 @@ img {
     color: #484848;
     font-size: 15px;
     line-height: 20px;
+}
+
+/* event section */
+
+#event {
+    max-width: 100%;
+    max-height: 100vh;
+    background-color: #fff;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin:10%;
+}
+.event-img {
+    max-width: 400px;
+    margin: auto;
+
+}
+
+.event-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.event-text {
+    max-width: 400px;
+    text-align: left;
+    margin: auto;
+    line-height: 25px;
+}
+.event-h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.event-h4:hover {
+    color: #484848;
+    cursor: pointer;
+}
+.date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.event-btn {
+    background-color: #fff;
+    color: #484848;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.event-btn:hover {
+    background-color: #f3f3f3;
+    color: #484848;
+    cursor: pointer;
+}
+.event-p {
+    color: #484848;
+}
+
+/* footer */
+
+#footer {
+    max-width: 100%;
+    max-height: 100vh;
+    background-color: #fff;
+}
+
+.contain {
+    display: flex;
+    /* justify-content: s; */
+    /* align-items: center; */
+    padding: 3%;
+    margin: auto;
+    gap: 5%;
+}
+
+.f-text {
+    max-width: 400px;
+}
+.f-text img {
+    width: 30%;
+}
+.f-text p {
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.links ul li{
+    list-style: none;
+    padding: 10px 0;
+    max-width: 150px;
+}
+.links ul li a {
+    text-decoration: none;
+    color: #484848;
+    font-size: 15px;
+}
+
+.links ul li a:hover {
+    color: #000;
+}
+
+.icons {
+    max-width: 30%;
+}
+
+.icons img {
+    max-width: 20%;
+    margin: 10px 5px;
+    opacity: .5;
+}
+.icons img:hover {
+    opacity: 1;
+}
+.footer {
+    max-width: 100%;
+    padding: 30px;
+    border-top: 1px solid #000;
+}
+.footer p {
+    color: #484848;
 }
